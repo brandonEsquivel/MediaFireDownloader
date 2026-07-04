@@ -1,12 +1,12 @@
 # MediaFire Batch Downloader
 
-A small Selenium-based utility for batch-downloading files from MediaFire. Point it at a text file full of links, and it handles opening each page and clicking the download button. Everything else — where files go, what they're named — stays under your control.
+A small Selenium-based utility for batch-downloading files from MediaFire. Point it at a text file full of links, and it handles opening each page and clicking the download button. Everything else like where files go and what they're named, stays under your control.
 
 ---
 
 ## Background
 
-Built out of a practical need: downloading large multi-part archives from MediaFire where manually opening 20+ tabs and clicking through each one is tedious and error-prone. The script handles the repetitive navigation while keeping the user in the loop for each save decision. The browser never closes on its own, so in-progress transfers are never interrupted.
+Built out of a practical need: downloading large multi-part archives from MediaFire, where manually opening 20+ tabs and clicking through each one is tedious and error-prone. The script handles the repetitive navigation while keeping the user in the loop for each save decision. The browser never closes on its own, so in-progress transfers are never interrupted.
 
 ---
 
